@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#173b75">
+  <title>NOTES Materials</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./">NOTES Materials</a>
+    <nav aria-label="मुख्य मेन्यू">
+      <a href="#notes">All Study Notes</a>
+      <a href="#mock-test">Mock Test</a>
+    </nav>
+    <button id="accountBtn" class="account" type="button">Account</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">आपकी तैयारी, एक ही जगह</p>
+      <h1>Study smarter. Prepare better.</h1>
+      <p>Exam-wise notes, subject-wise notes, NCERT notes और online mock tests.</p>
+      <p id="connectionStatus" class="status">Firebase कनेक्शन जाँचा जा रहा है…</p>
+    </section>
+
+    <section id="notes" class="section">
+      <h2>All Study Notes</h2>
+      <div class="cards">
+        <a class="card" href="#exam-wise"><span class="card-icon">📚</span><h3>Exam-wise Notes</h3><p>अलग-अलग परीक्षाओं के अनुसार नोट्स</p></a>
+        <a class="card" href="#subject-wise"><span class="card-icon">📖</span><h3>Subject-wise Notes</h3><p>विषय के अनुसार नोट्स</p></a>
+        <a class="card" href="#ncert"><span class="card-icon">🎓</span><h3>NCERT Notes</h3><p>कक्षा 6 से 12 तक</p></a>
+      </div>
+    </section>
+
+    <section id="exam-wise" class="section compact">
+      <h2>Exam-wise Notes</h2>
+      <p>Bihar Police · Bihar Daroga · BPSC · SSC GD · Railway</p>
+      <p class="muted">यह नमूना श्रेणी है। आगे इन्हें Admin Panel से जोड़ा और बदला जा सकेगा।</p>
+    </section>
+
+    <section id="subject-wise" class="section compact">
+      <h2>Subject-wise Notes</h2>
+      <p>History · Geography · Polity · Biology · Physics · Chemistry · Bihar GK</p>
+    </section>
+
+    <section id="ncert" class="section compact">
+      <h2>NCERT Notes</h2>
+      <p>Class 6 · Class 7 · Class 8 · Class 9 · Class 10 · Class 11 · Class 12</p>
+    </section>
+
+    <section id="mock-test" class="section compact">
+      <h2>Mock Test</h2>
+      <p>Full Mock Test · Subject-wise Test · Chapter-wise Practice · PYQ</p>
+      <p class="muted">Mock test engine अगले चरण में जोड़ा जाएगा।</p>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> NOTES Materials</footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

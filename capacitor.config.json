@@ -1,0 +1,8 @@
+{
+  "appId": "com.notesmaterials.app",
+  "appName": "NOTES Materials",
+  "webDir": ".",
+  "android": {
+    "allowMixedContent": false
+  }
+}
